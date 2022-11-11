@@ -1,0 +1,10 @@
+project_name,Accuracy,F1,Precision,Recall
+Activiti,100,100,100,100
+adyen-java-api-library,92.13483146,91.76470588,97.5,86.66666667
+asset-share-commons,100,100,100,100
+asyncload,100,100,100,100
+easyexcel,100,100,100,100
+innodb-java-reader,100,100,100,100
+metrics,100,100,100,100
+nacos,91.17647059,95.23809524,96.77419355,93.75
+netty,100,100,100,100
