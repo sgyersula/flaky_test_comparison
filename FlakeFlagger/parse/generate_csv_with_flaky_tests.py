@@ -13,6 +13,7 @@ ff = open('./selected_input_with_flaky_tests.csv','w')
 for line in f:
     if not towrite:
         towrite.append(line)
+        continue
     tmp = line.split(',')
     url = tmp[0]
     sha = tmp[1]

@@ -1,5 +1,4 @@
 Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes
-Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes
 https://github.com/Activiti/Activiti,b11f757a48600e53aaf3fcb7a3ba1ece6c463cb4,activiti-engine,org.activiti.engine.test.bpmn.async.AsyncTaskTest.testAsyncEndEvent,UD,MovedOrRenamed,,https://github.com/Activiti/Activiti/commit/c04f27c338d87c72fbebfea9b72ec76e93cccded
 https://github.com/Activiti/Activiti,b11f757a48600e53aaf3fcb7a3ba1ece6c463cb4,activiti-engine,org.activiti.engine.test.bpmn.event.error.ErrorEventSubProcessTest.testErrorCodeTakesPrecedence,UD,MovedOrRenamed,,https://github.com/Activiti/Activiti/commit/c04f27c338d87c72fbebfea9b72ec76e93cccded
 https://github.com/Activiti/Activiti,b11f757a48600e53aaf3fcb7a3ba1ece6c463cb4,activiti-engine,org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal,UD,MovedOrRenamed,,https://github.com/Activiti/Activiti/commit/c04f27c338d87c72fbebfea9b72ec76e93cccded
