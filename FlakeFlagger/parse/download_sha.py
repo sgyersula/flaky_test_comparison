@@ -1,8 +1,9 @@
 import os
 import argparse
 
+os.chdir('FlakeFlagger/parse')
 parser = argparse.ArgumentParser()
-parser.add_argument('--csv_path', type=str, default='sample_input.csv')
+parser.add_argument('--csv_path', type=str, default='sample_input_2.csv')
 args = parser.parse_args()
 
 csv_path = args.csv_path

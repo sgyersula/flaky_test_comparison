@@ -3,10 +3,10 @@ import os
 import os.path as osp
 import argparse
 
-
+os.chdir('FlakeFlagger/parse')
 # input parameters
 parser = argparse.ArgumentParser()
-parser.add_argument('--csv_path', type=str, default='FlakeFlagger/parse/sample_input.csv')
+parser.add_argument('--csv_path', type=str, default='sample_input_2.csv')
 args = parser.parse_args()
 csv_path = args.csv_path
 
@@ -55,7 +55,7 @@ def get_method_text(module, road, file):
             
     return methods
 
-os.chdir('FlakeFlagger/parse/projects')
+os.chdir('projects')
 # start transforming each project
 for project in projects:
     res = []
