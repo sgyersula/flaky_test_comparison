@@ -68,7 +68,7 @@ for project in projects:
     
     # switch directory
     os.chdir(project_name)
-    os.system('git checkout ' + sha)
+    # os.system('git checkout ' + sha)
     
     # decode
     road = ('/').join(test_name.split('.')[:-2])
