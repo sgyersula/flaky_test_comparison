@@ -1,12 +1,16 @@
 from collections import defaultdict
-f = open('../dataset/candidates.txt', 'r')
-projects = f.readline().split(',')
+f = open('./selected_input.csv', 'r')
+projects = []
+for line in f:
+    if line.split(',')[0] == 'Project URL':
+        continue
+    projects.append(line.split(',')[0].split('/')[-1])
 f.close()
-projects = [project.strip() for project in projects]
+
 mark = defaultdict(bool)
 target = []
 
-f = open('some_results/Flakify_per_project_results_on_IDoFT_dataset.csv','r')
+f = open('./Flakify/some_results/Flakify_per_project_results_on_IDoFT_dataset.csv','r')
 head = None
 for line in f:
     if not head:
@@ -19,7 +23,7 @@ for line in f:
             break
 f.close()
 
-f = open('some_results/Flakify_per_project_results_on_selected.csv','w')
+f = open('./Flakify/some_results/Flakify_per_project_results_on_selected.csv','w')
 f.write(head)
 for l in target:
     f.write(l)
