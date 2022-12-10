@@ -1,4 +1,5 @@
 # FlakeFlagger
+Refer to https://github.com/AlshammariA/FlakeFlagger for more information.
 
 Automation selection script: FlakeFlagger/project-choose-automation/scripts/download_sha_jdk8.py
 
