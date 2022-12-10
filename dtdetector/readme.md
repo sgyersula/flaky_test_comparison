@@ -1,4 +1,5 @@
 # Jar from IDoft dataset
+Refer to https://github.com/winglam/dtdetector/wiki/User-manual for more information.
 
 Environment settings:
 
